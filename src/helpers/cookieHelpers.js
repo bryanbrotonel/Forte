@@ -50,8 +50,6 @@ export function updateCart(state) {
     currentCartItems.findIndex(function (currentitem) {
       const orderedItem = currentState;
 
-      console.log(currentitem, orderedItem);
-
       return (
         currentitem.itemName === orderedItem.productName &&
         currentitem.productVariation === orderedItem.productVariation &&
